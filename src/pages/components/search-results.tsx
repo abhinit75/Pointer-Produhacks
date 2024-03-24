@@ -4,7 +4,6 @@ import Source from "./results/source";
 import { useTextStore } from "@/state/stream";
 import { useSearchStatusStore } from "@/state/search";
 import remarkGfm from "remark-gfm";
-import { Divide } from "lucide-react";
 
 export const SearchResults = () => {
   const text = useTextStore((state) => state.text);
@@ -51,7 +50,7 @@ export const SearchResults = () => {
       )}
 
       {text == "" && (
-        <div className="w-full flex items-center justify-center mt-4">
+        <div className="w-full flex items-center justify-center">
           <h1 className="font-bold">Search for something!</h1>
         </div>
       )}

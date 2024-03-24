@@ -35,6 +35,7 @@ export function SearchBox() {
         `\nUser question: <Question>${searchText}</Question>` +
         "\nPlease use backticks when showing code snippets. Please cite your sources inline as often as possible by providing as many links as you. \n\n Answer:",
       documents: documents,
+      promptTruncation: "AUTO",
     });
 
     setIsSearching(false);

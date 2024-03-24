@@ -1,0 +1,38 @@
+<svg width="803" height="914" viewBox="0 0 803 914" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_18_2)">
+<path d="M258.793 757V204.854C258.793 173.331 672.035 35.8084 649.078 360.425C640.277 484.859 535.752 519.091 476.893 523.532C339.146 533.926 342.426 532.935 258.793 531.869" stroke="url(#paint0_angular_18_2)" stroke-width="225" stroke-linecap="round" stroke-linejoin="round"/>
+<g filter="url(#filter1_d_18_2)">
+<path d="M185 519.279L378.502 424.044V638.323L185 519.279Z" stroke="url(#paint1_linear_18_2)" stroke-width="140" shape-rendering="crispEdges"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_18_2" x="0.528736" y="0.700031" width="801.751" height="912.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="19.9"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.54 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_18_2"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_18_2" result="shape"/>
+</filter>
+<filter id="filter1_d_18_2" x="14.3287" y="286.574" width="448.173" height="491.999" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-6" dy="-5"/>
+<feGaussianBlur stdDeviation="10"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_18_2"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_18_2" result="shape"/>
+</filter>
+<radialGradient id="paint0_angular_18_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(363.744 438.78) rotate(88.3217) scale(223.969 196.466)">
+<stop stop-color="#5402DA"/>
+<stop offset="1" stop-color="white"/>
+</radialGradient>
+<linearGradient id="paint1_linear_18_2" x1="398.181" y1="414.106" x2="401.299" y2="578.815" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C5B0E8"/>
+<stop offset="1" stop-color="#EAE4F5"/>
+</linearGradient>
+</defs>
+</svg>

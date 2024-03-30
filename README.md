@@ -19,3 +19,4 @@ How to differentiate from competitors and create an impressive MVP with minimal 
 ## What's next for Pointer
 A complete product that effectively uses RAG, connects and updates information from multiple sources, and stores company data using Pinecone. Authentication to work with multiple companies.
 
+Credits go to [Borna Shani](https://www.linkedin.com/in/borna-shani), [Dhrishty Dhanwani](https://www.linkedin.com/in/dhrishty-dhanwani/), [Alison Hardy](https://github.com/alichiba), and [Ryan Haraki](https://github.com/ryanharaki).

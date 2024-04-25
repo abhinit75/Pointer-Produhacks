@@ -5,7 +5,7 @@ import { useTextStore } from "@/state/stream";
 import { useSearchStatusStore } from "@/state/search";
 import remarkGfm from "remark-gfm";
 
-export default SearchResults = () => {
+export default function SearchResults = () => {
   const text = useTextStore((state) => state.text);
   const isSearching = useSearchStatusStore((state) => state.isResultsLoading);
 

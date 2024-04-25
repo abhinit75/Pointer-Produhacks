@@ -130,8 +130,10 @@ const AppWrapper = ({ children }: AppWrapperProps) => {
           <h1 className="text-xl font-semibold text-violet">Pointer</h1>
           <Button
             onClick={(e) => {
-              toast("Your search URL has been copied to clipboard!");
-              navigator.clipboard.writeText(window.location.href);
+              if (e?.auth) {
+                toast("Your search URL has been copied to clipboard!");
+                navigator.clipboard.writeText(window.location.href);
+              }
             }}
             variant="outline"
             size="sm"

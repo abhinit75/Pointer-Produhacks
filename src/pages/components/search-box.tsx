@@ -10,7 +10,7 @@ import { SYSTEM_PROMPT } from "@/lib/prompt";
 import { useSearchStatusStore } from "@/state/search";
 import { useHistory } from "@/state/history";
 
-export function SearchBox() {
+export default function SearchBox() {
   const [searchText, setSearchText] = useState("");
   const setHistory = useHistory((state) => state.addHistory);
   const setIsSearching = useSearchStatusStore(

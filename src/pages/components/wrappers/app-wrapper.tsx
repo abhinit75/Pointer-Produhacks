@@ -130,7 +130,7 @@ const AppWrapper = ({ children }: AppWrapperProps) => {
           <h1 className="text-xl font-semibold text-violet">Pointer</h1>
           <Button
             onClick={(e) => {
-              if (e?.auth) {
+              if ((e.target as HTMLElement)?.hasAttribute('auth')) {
                 toast("Your search URL has been copied to clipboard!");
                 navigator.clipboard.writeText(window.location.href);
               }

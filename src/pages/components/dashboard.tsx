@@ -1,7 +1,7 @@
 import { SearchBox } from "./search-box";
 import SearchResults from "./search-results";
 
-export default Dashboard() {
+export default function Dashboard() {
   return (
     <div className="w-full">
       <SearchBox />

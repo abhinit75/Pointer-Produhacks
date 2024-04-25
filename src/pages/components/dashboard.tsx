@@ -1,4 +1,4 @@
-import { SearchBox } from "./search-box";
+import SearchBox from "./search-box";
 import SearchResults from "./search-results";
 
 export default function Dashboard() {
